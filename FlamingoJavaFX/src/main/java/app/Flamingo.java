@@ -20,7 +20,7 @@ import pkgCore.Player;
 import pkgCore.Table;
 
 public class Flamingo extends Application {
-	
+	//.
 	private Stage primaryStage;	
 	private GameHub gHub = null;
 	private AnchorPane GameBorderPane = null;
