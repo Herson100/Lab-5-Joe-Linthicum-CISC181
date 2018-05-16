@@ -4,15 +4,15 @@ import pkgCore.Deck;
 
 public class DeckException extends Exception {
 
-	private Deck d;
+	private Deck c;
 
-	public DeckException(Deck d) {
+	public DeckException(Deck c) {
 		super();
-		this.d = d;
+		this.c = c;
 	}
 
 	protected Deck getD() {
-		return d;
+		return c;
 	}
 	
 }
